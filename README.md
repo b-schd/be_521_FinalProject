@@ -23,6 +23,8 @@ Final Project Report
 
 6. Some thoughts about why the fourth (ring) finger’s flexion was generally so correlated with the third (middle) and fifth’s (little) (5 pts)
 
+Say something about the flexor/extensor digitorum motor units of the 4th finger overlap with that of the third and fifth fingers. So moving the fourth finger will also pull on the tendons controlling the 3rd/5th fingers, or moving the 3rd/5th fingers will move the 4th finger too. Therefore, due to the anatomical structure of the forearm muscles, the 4th finger are correlated weith the 3rd and fifth fingers.
+
 
 7. A conclusion about your overall experience with the project and how well you felt you did on it (5 pts)
 
