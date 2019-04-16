@@ -11,6 +11,7 @@ Final Project Report
 
 3. Flow chart summarizing the general steps of your algorithm (5 pts)
 
+![alt text](https://github.com/andyrevell/be_521_FinalProject/blob/master/report_figures/figure_1.png)
 
 4. Interesting figure(s) that illustrates part of your algorithm or motivates a particular decision you made along the way (5 pts)
 
