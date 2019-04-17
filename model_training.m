@@ -1,7 +1,7 @@
 %Code to train and generate our model
 
 %%
-%IEEGSession works with my login if you add 'ieeg_matlabToolBox' to path
+%IEEGSession works with my login if you add 'ieeg_matlabToolBox' folder to path
 addpath(genpath('ieeg_matlabToolBox'));
 %%
 %Opening sessions
@@ -42,13 +42,12 @@ for chan = [s1_channel_num, s2_channel_num, s3_channel_num]
     for i = 1:chan
         data_ecog(i,:) = session_ecog.data.getvalues(1:(data_length),i)';
     end
-    
-    data_dg = zeros(5,data_length);
+ 
     %Get data for finger angle (for each subject)
+    data_dg = zeros(5,data_length);
     for i = 1:5 %Only five channels in dg (one for each finger)
         data_dg(i,:) = session_dg.data.getvalues(1:(data_length),i)';
     end    
-    
     
     train_ecog{counter} = data_ecog;
     train_dg{counter} = data_dg;
@@ -56,8 +55,8 @@ for chan = [s1_channel_num, s2_channel_num, s3_channel_num]
 end
     
 
-
-
+%%
+%Train Model
 
 
 
